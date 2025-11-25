@@ -99,7 +99,7 @@ function movecard(dir, planet) {
     document.getElementById("card-tempC").innerText = "Core Temperature: "+planettext[planet].coretemp+"C"
     document.getElementById("card-age").innerText = "Age: "+planettext[planet].age+" Years"
     document.getElementById("card-info").innerText = planettext[planet].info
-    document.getElementById("card-image").setAttribute("src", planet+".jpeg")
+    document.getElementById("card-image").setAttribute("src", "images/"+planet+".jpeg")
     document.getElementById("card-image").setAttribute("alt", planet)
 
 
